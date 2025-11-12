@@ -9,7 +9,7 @@ This project automates AI-driven research report generation using a multi-agent 
 | Component | Technology |
 |------------|-------------|
 | Backend | FastAPI |
-| Agents | LangChain / CrewAI |
+| Agents | LangChain |
 | Search Integration | Tavily API |
 | Database | SQLite |
 | Containerization | Docker |
@@ -201,7 +201,7 @@ research_and_analyst/
 ---
 
 ## Final Outcome
-A production-ready, multi-agent AI research automation system that:
+A production-ready, multi-agent AI research automation system built using **LangChain** that:
 - Searches, reads, analyzes, and generates reports automatically.
 - Is fully deployed via Dockerized Jenkins CI/CD on Azure Cloud.
 - Offers real-time monitoring, secure deployment, and scalable automation.
